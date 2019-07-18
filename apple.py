@@ -14,3 +14,4 @@ list['Nicole']= {'I': 17, 'M': 17.5}
 #
 # people['hota'] = 21
 #
+# 9
