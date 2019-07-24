@@ -75,3 +75,31 @@ function zoomin(){
   myImg.style.width = (currWidth + 5) + "px";
   myImg.style.height = (currHeight + 5) + "px";
 }
+
+var foz = document.getElementById("the name")
+function difFonCol(){
+  foz.style.color = "purple";
+}
+
+
+
+var fonts = ["'Merriweather', serif","'Roboto Slab', serif",
+"'PT Sans', sans-serif", "'Playfair Display', serif",
+"'Lora', serif;"];
+var poz = 0
+ // var dumm= document.getElementById("")
+function fonChan(){
+  // foz.setAttribute("style", `font-family: ${fonts[poz]}`);
+  document.getElementById("Chanf").style.fontFamily = fonts[poz];
+  poz++;
+  if (poz >= fonts.lengths){
+    poz = 0;
+  }
+}
+
+document.getElementById("speacialfont").addEventListener("click",
+function(){
+  alert("Hello World");
+  document.getElementById("speacialfont").style.color
+  ="brown";
+})
