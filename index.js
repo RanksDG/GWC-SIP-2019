@@ -72,8 +72,6 @@ function zoomin(){
   var myImg = document.getElementById("pic")
   var currWidth = myImg.clientWidth;
   var currHeight = myImg.clientWidth;
-  myImg.style.width = (currWidth + 5) + "px";
-  myImg.style.height = (currHeight + 5) + "px";
 }
 
 var foz = document.getElementById("the name")
